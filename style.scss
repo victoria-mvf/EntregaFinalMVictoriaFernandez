@@ -86,13 +86,8 @@ main {
     }
     
     .gallery-container {
-        width: 600px;
-        height: 800px;
+        float: left;
         margin-right: 100px;
-        overflow-y: scroll;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
         justify-content: start;
     
         img {
@@ -104,9 +99,7 @@ main {
 }
 
 
-#menu-buzo {
-    float: left;
-}
+
 
 aside {
     padding: 50px;
