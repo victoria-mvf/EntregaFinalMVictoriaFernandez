@@ -78,30 +78,8 @@ header {
     }
 }
 
-main {
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    }
-    
-    .gallery-container {
-        float: left;
-        margin-right: 100px;
-        justify-content: start;
-    
-        img {
-            width: 100%;
-            height: auto;
-        }
-       
-          }
-}
-
-
-
-
 aside {
+
     padding: 50px;
     margin: 200px;
 
@@ -150,9 +128,33 @@ main {
     border: solid 5px rgb(173, 173, 173);
     background-image: $background-fot-news
 
-
 }
 
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-container {
+    float: left;
+    width: 35%;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: start;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+   
+      }
+
+      #menu-buzo {
+       float: left;
+    }
 }
 
 h2 {
@@ -165,12 +167,14 @@ h2 {
 }
 
 section {
+    display: block;
     margin: 50px;
     height: 200px;
     border: solid rgb(222, 221, 221);
     background-image: $backgroud-section;
 
     .grid-layoud {
+        display: block;
         clear: both;
         display: grid;
         grid-template-columns: auto auto auto;
@@ -190,6 +194,7 @@ section {
 
 
 footer {
+    display: block;
     display: flex;
     flex-direction: column;
     align-items: center;
