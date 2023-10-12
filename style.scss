@@ -1,8 +1,9 @@
+@import "variables";
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
 
 body {
     padding: 0%;
@@ -29,7 +30,7 @@ header {
 
     .nav-logo {
         background-color: white;
-        height: 100px;
+        height: 110px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -98,9 +99,10 @@ main {
             width: 100%;
             height: auto;
         }
-    }
-
+       
+          }
 }
+
 
 #menu-buzo {
     float: left;
@@ -146,30 +148,35 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
+#inscripcion {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 5px rgb(173, 173, 173);
+    background-image: $background-fot-news
+
+
+}
+
 }
 
 h2 {
-    background-color: rgb(245, 244, 243);
-    padding: 25px;
+    background-color: $back-ground-h2;
+    padding: $padding-h2;
     font-style: bold;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.titulos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-
-}
-
 section {
     margin: 50px;
     height: 200px;
     border: solid rgb(222, 221, 221);
-    background-color: rgb(254, 251, 248);
+    background-image: $backgroud-section;
+
     .grid-layoud {
         clear: both;
         display: grid;
@@ -216,5 +223,13 @@ article {
     }
 }
 
+#inscripcion {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 5px rgb(173, 173, 173);
+    background-image: $background-fot-news;
+}
 
 

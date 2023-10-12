@@ -1,218 +1,204 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-
 body {
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    scroll-behavior: auto;
-    background-color: antiquewhite
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  scroll-behavior: auto;
+  background-color: antiquewhite;
 }
 
 header {
-    background-position: 300px;
-    padding: 0%;
+  background-position: 300px;
+  padding: 0%;
+}
+header .temporada {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  grid-template-rows: 25px 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 5px solid black;
+}
+header .nav-logo {
+  background-color: white;
+  height: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 5px solid black;
+}
+header .nav-lista {
+  font-style: oblique;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+header h1 {
+  background-color: rgb(171, 50, 50);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-style: oblique;
+}
+header nav a {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+  display: flex;
+}
+header nav a:hover {
+  color: gray;
 }
 
-.temporada {
-    display: grid;
-    grid-template-columns: 300px 100px;
-    grid-template-rows: 25px 25px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    border: 5px solid black
+main .galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
-
-.nav-logo {
-    background-color: white;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    border: 5px solid black
+main .gallery-container {
+  width: 600px;
+  height: 800px;
+  margin-right: 100px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-content: start;
 }
-
-.nav-lista {
-    font-style: oblique;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-wrap: wrap
-}
-
-
-h1 {
-    background-color: rgb(228, 226, 226);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-style: oblique
-}
-
-.enlaces {
-    padding: 20px;
-}
-
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-.gallery-container {
-    width: 600px;
-    height: 800px;
-    margin-right: 100px;
-    overflow-y: scroll;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    justify-content: start;
-
-    img {
-        width: 100%;
-        height: auto;
-    }
+main .gallery-container img {
+  width: 100%;
+  height: auto;
 }
 
 #menu-buzo {
-    float: left;
+  float: left;
 }
 
 aside {
-    padding: 50px;
-    margin: 200px;
+  padding: 50px;
+  margin: 200px;
+}
+aside p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(208, 208, 208);
+}
+aside h5 {
+  font-style: inherit;
 }
 
-nav a {
-    font-weight: 600;
-    padding-top: 10px;
-    padding-left: 10px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
+main .banner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-nav ul {
-    list-style-type: none;
-    padding-left: 0px;
-    text-align: center;
-    display: flex;
+main .banner2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
 }
-
-nav a:hover {
-    color: gray
+main .titulo-banner2 {
+  font-style: oblique;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-
-
-
-.banner1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-
-}
-
-.titulo-banner2 {
-    font-style: oblique;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+main #inscripcion {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 5px rgb(173, 173, 173);
+  background-image: linear-gradient(to left, rgb(251, 203, 203), rgb(255, 254, 254));
 }
 
 h2 {
-    background-color: rgb(245, 244, 243);
-    padding: 25px;
-    font-style: bold
-}
-
-.titulos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-
-}
-
-
-h5 {
-    font-style: inherit;
-}
-
-h3 {
-    font-style: bold
+  background-color: rgb(237, 237, 237);
+  padding: 15px;
+  font-style: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 section {
-    margin: 50px;
-    height: 200px;
-    border: solid rgb(222, 221, 221);
-    background-color: rgb(254, 251, 248);
+  margin: 50px;
+  height: 200px;
+  border: solid rgb(222, 221, 221);
+  background-image: linear-gradient(to left, rgb(254, 241, 241), rgb(255, 254, 254));
 }
-
-.grid-layoud {
-    clear: both;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    justify-content: space-around;
-    padding: 25px;
+section .grid-layoud {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: space-around;
+  padding: 25px;
 }
-
-.lista-1 {
-    font-style: normal;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
+section .lista-1 {
+  font-style: normal;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-p {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(208, 208, 208)
+section h3 {
+  font-style: bold;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: solid 5px black;
-    background-color: rgb(208, 208, 208)
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: solid 5px black;
+  background-color: rgb(208, 208, 208);
 }
 
-.descripcion-politicas {
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+article .descripcion-politicas {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+article p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(208, 208, 208);
 }
 
 #inscripcion {
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: antiquewhite;
-    border: solid 5px rgb(173, 173, 173);
-
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 5px rgb(173, 173, 173);
+  background-image: linear-gradient(to left, rgb(251, 203, 203), rgb(255, 254, 254));
 }
+
+/*# sourceMappingURL=style.css.map */
