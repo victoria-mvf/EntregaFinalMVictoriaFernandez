@@ -1,0 +1,19 @@
+aside {
+
+    padding: 50px;
+    margin: 200px;
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(208, 208, 208)
+    }
+
+    h5 {
+        font-style: inherit;
+    }
+    
+}

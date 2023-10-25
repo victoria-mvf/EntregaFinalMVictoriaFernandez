@@ -1,0 +1,69 @@
+header {
+    background-position: 300px;
+    padding: 0%;
+
+    .temporada {
+        display: grid;
+        grid-template-columns: 300px 100px;
+        grid-template-rows: 25px 25px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border: 5px solid black
+
+    }
+
+    .nav-logo {
+        background-color: white;
+        height: 110px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        border: 5px solid black
+    }
+
+    .nav-lista {
+        font-style: oblique;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap
+    }
+
+    .breadcrumb { 
+        @extend .nav-lista;}
+
+
+    h1 {
+        background-color:rgb(171, 50, 50);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-style: oblique
+    }
+
+    nav a {
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 10px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0px;
+        text-align: center;
+        display: flex;
+    }
+    
+    nav a:hover {
+        color: gray
+    }
+}
