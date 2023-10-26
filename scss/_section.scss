@@ -14,29 +14,31 @@ section {
         justify-content: space-around;
         padding: 25px;
     }
+
     .lista-1 {
         font-style: normal;
         font-size: small;
         font-family: Arial, Helvetica, sans-serif;
     }
+
     h3 {
         font-style: bold
     }
 
     article {
+        
         .descripcion-politicas {
             padding: 50px;
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
+
         p {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: rgb(208, 208, 208)
+            @extend p;
         }
+
     }
+
+    
 }
