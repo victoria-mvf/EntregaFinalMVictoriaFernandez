@@ -47,11 +47,22 @@ main {
         float: left;
     }
 
-    
+
     .boton-estilo {
         @include estilo-de-boton ($back-ground-h2, $color-texto-boton)
+    }
 
-}
+    article {
+
+        .descripcion-politicas {
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+    }
 
 }
 

@@ -2,12 +2,13 @@ header {
   background-position: 300px;
   padding: 0%;
 }
-header .temporada {
-  display: grid;
-  grid-template-columns: 300px 100px;
-  grid-template-rows: 25px 25px;
+header h1 {
+  background-color: rgb(228, 226, 226);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-style: oblique;
   margin: 10px;
   border: 5px solid black;
 }
@@ -18,7 +19,7 @@ header .nav-logo {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 11px;
   border: 5px solid black;
 }
 header .nav-lista, header .breadcrumb {
@@ -27,14 +28,6 @@ header .nav-lista, header .breadcrumb {
   justify-content: start;
   align-items: start;
   flex-wrap: wrap;
-}
-header h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  font-style: oblique;
 }
 header nav a {
   font-weight: 600;
@@ -109,6 +102,12 @@ main .boton-estilo {
   border-radius: 3px;
   cursor: pointer;
 }
+main article .descripcion-politicas {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 #inscripcion {
   padding: 50px;
@@ -135,6 +134,11 @@ section .grid-layoud {
   justify-content: space-around;
   padding: 25px;
 }
+@media screen and (max-width: 400px) {
+  section .grid-layoud {
+    font-size: 50%;
+  }
+}
 section .lista-1 {
   font-style: normal;
   font-size: small;
@@ -142,12 +146,6 @@ section .lista-1 {
 }
 section h3 {
   font-style: bold;
-}
-section article .descripcion-politicas {
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 footer {
@@ -158,7 +156,7 @@ footer {
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: solid 5px black;
-  background-color: rgb(208, 208, 208);
+  background-color: rgb(228, 226, 226);
 }
 
 body {
@@ -184,7 +182,7 @@ p {
   justify-content: center;
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(208, 208, 208);
+  background-color: rgb(237, 237, 237);
 }
 
 * {

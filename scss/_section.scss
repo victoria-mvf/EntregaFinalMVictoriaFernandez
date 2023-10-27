@@ -15,6 +15,14 @@ section {
         padding: 25px;
     }
 
+    @media screen and (max-width: 400px) {
+
+        .grid-layoud { font-size: 50%;
+
+        }
+        
+    }
+
     .lista-1 {
         font-style: normal;
         font-size: small;
@@ -23,18 +31,6 @@ section {
 
     h3 {
         font-style: bold
-    }
-
-    article {
-        
-        .descripcion-politicas {
-            padding: 50px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-
     }
 
     

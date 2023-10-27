@@ -2,15 +2,16 @@ header {
     background-position: 300px;
     padding: 0%;
 
-    .temporada {
-        display: grid;
-        grid-template-columns: 300px 100px;
-        grid-template-rows: 25px 25px;
+    h1 {
+        background-color: $background-estilos;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-style: oblique;
         margin: 10px;
-        border: 5px solid black
-
+        border: 5px solid black;
+         
     }
 
     .nav-logo {
@@ -20,8 +21,8 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 20px;
-        border: 5px solid black
+        margin: 11px;
+        border: 5px solid black;
     }
 
     .nav-lista {
@@ -37,15 +38,7 @@ header {
     }
 
 
-    h1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        font-style: oblique 
-         
-    }
+  
 
     nav a {
         font-weight: 600;

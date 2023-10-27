@@ -3,6 +3,7 @@ $color-texto-boton: rgb(34, 31, 31);
 $padding-h2: 15px;
 $background-fot-news: linear-gradient(to left, rgb(251, 203, 203), rgb(255, 254, 254));
 $backgroud-section: linear-gradient(to left, rgb(199, 83, 89), rgb(255, 254, 254));
+$background-estilos: rgb(228, 226, 226);
 
 @mixin estilo-de-boton($back-ground-h2, $color-texto-boton) {
     background-color: $back-ground-h2;
