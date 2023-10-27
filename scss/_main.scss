@@ -47,9 +47,13 @@ main {
         float: left;
     }
 
+    
+    .boton-estilo {
+        @include estilo-de-boton ($back-ground-h2, $color-texto-boton)
 
 }
 
+}
 
 #inscripcion {
     padding: 50px;
