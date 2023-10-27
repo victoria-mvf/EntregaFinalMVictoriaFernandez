@@ -59,6 +59,7 @@ main {
             display: flex;
             flex-direction: row;
             justify-content: center;
+            
         }
 
 
@@ -71,6 +72,5 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid 5px rgb(173, 173, 173);
-    background-image: $background-fot-news
+    background-image: $background-fot-news;
 }

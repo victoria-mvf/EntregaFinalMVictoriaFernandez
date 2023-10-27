@@ -98,7 +98,7 @@ main .boton-estilo {
   background-color: rgb(237, 237, 237);
   color: rgb(34, 31, 31);
   padding: 10px 20px;
-  border: solid linear-gradient(to left, rgb(199, 83, 89), rgb(255, 254, 254));
+  border: solid linear-gradient(to top, rgb(202, 121, 135), rgb(255, 254, 254));
   border-radius: 3px;
   cursor: pointer;
 }
@@ -114,16 +114,14 @@ main article .descripcion-politicas {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: solid 5px rgb(173, 173, 173);
-  background-image: linear-gradient(to left, rgb(251, 203, 203), rgb(255, 254, 254));
+  background-image: linear-gradient(to left, rgb(88, 86, 86), rgb(224, 140, 175));
 }
 
 section {
   display: block;
   margin: 50px;
   height: 200px;
-  border: solid rgb(222, 221, 221);
-  background-image: linear-gradient(to left, rgb(199, 83, 89), rgb(255, 254, 254));
+  background-image: linear-gradient(to top, rgb(202, 121, 135), rgb(255, 254, 254));
 }
 section .grid-layoud {
   display: block;
